@@ -1,6 +1,6 @@
-Current configuration : 3839 bytes
+Current configuration : 3784 bytes
 !
-! Last configuration change at 16:28:59 UTC Fri Dec 19 2025
+! Last configuration change at 17:23:15 UTC Fri Dec 19 2025
 !
 version 15.2
 service timestamps debug datetime msec
@@ -112,10 +112,6 @@ interface Vlan90
  description Storage
  no ip address
 !
-interface Vlan100
- description Native
- no ip address
-!
 ip forward-protocol nd
 !
 no ip http server
@@ -162,6 +158,6 @@ line con 0
 line aux 0
 line vty 0 4
  login
-!
+!         
 !
 end
