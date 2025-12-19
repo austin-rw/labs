@@ -1,13 +1,13 @@
-Current configuration : 3363 bytes
+Current configuration : 3364 bytes
 !
-! Last configuration change at 16:16:35 UTC Fri Dec 19 2025
+! Last configuration change at 17:15:47 UTC Fri Dec 19 2025
 !
 version 15.6
 service timestamps debug datetime msec
 service timestamps log datetime msec
 no service password-encryption
 !
-hostname USTXDA-CE-1A
+hostname USTXDA-RTR-1A
 !
 boot-start-marker
 boot-end-marker
