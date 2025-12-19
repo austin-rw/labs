@@ -1,8 +1,6 @@
-Building configuration...
-
-Current configuration : 3973 bytes
+Current configuration : 3918 bytes
 !
-! Last configuration change at 15:39:30 UTC Fri Dec 19 2025
+! Last configuration change at 17:20:40 UTC Fri Dec 19 2025
 !
 version 15.2
 service timestamps debug datetime msec
@@ -114,11 +112,7 @@ interface Vlan90
  description Storage
  no ip address
 !
-interface Vlan100
- description Native
- no ip address
-!
-!
+!         
 router eigrp 100
  network 192.168.10.0
 !
