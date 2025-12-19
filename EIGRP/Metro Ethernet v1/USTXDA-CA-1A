@@ -1,8 +1,6 @@
-Building configuration...
-
-Current configuration : 5075 bytes
+Current configuration : 5020 bytes
 !
-! Last configuration change at 15:18:38 UTC Fri Dec 19 2025
+! Last configuration change at 17:22:35 UTC Fri Dec 19 2025
 !
 version 15.2
 service timestamps debug datetime msec
@@ -142,10 +140,6 @@ interface Vlan90
  standby 1 priority 90
  standby 1 preempt
 !
-interface Vlan100
- description Native
- no ip address
-!
 interface Vlan101
  ip address 10.10.101.253 255.255.255.0
  standby 0 priority 90
@@ -164,7 +158,7 @@ router eigrp 100
  passive-interface GigabitEthernet1/0
 !
 ip forward-protocol nd
-!
+!         
 no ip http server
 no ip http secure-server
 !
